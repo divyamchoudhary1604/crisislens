@@ -1,0 +1,172 @@
+{
+  "id": "uttarakhand-landslide",
+  "name": "Cloudburst & Landslide Disruption on Badrinath Highway (NH-7)",
+  "region": "Chamoli & Rudraprayag, Uttarakhand",
+  "description": "Sudden cloudburst and debris flows have severed connectivity on the Badrinath National Highway between Joshimath and Pipalkoti.",
+  "friend": {
+    "name": "Vikram",
+    "home": {
+      "name": "Base Camp",
+      "label": "Joshimath Town",
+      "type": "home",
+      "latitude": 30.5564,
+      "longitude": 79.5670
+    },
+    "college": {
+      "name": "Destination",
+      "label": "Rishikesh Railway Junction",
+      "type": "college",
+      "latitude": 30.0869,
+      "longitude": 78.2676
+    },
+    "route": {
+      "from": "home",
+      "to": "destination",
+      "waypoints": [
+        { "lat": 30.5564, "lng": 79.5670 },
+        { "lat": 30.4294, "lng": 79.4326 },
+        { "lat": 30.2858, "lng": 78.9818 },
+        { "lat": 30.0869, "lng": 78.2676 }
+      ]
+    },
+    "preferredLanguage": "en"
+  },
+  "synthesis": {
+    "title": "Severe Landslide & Highway Blockade at Pagal Nala (NH-7)",
+    "type": "storm",
+    "severity": "CRITICAL",
+    "severityFactors": [
+      "Heavy mudslide and boulder fall at Pagal Nala blocking both carriageways",
+      "Over 400 vehicles stranded on both sides of Chamoli sector",
+      "Continuous debris slide triggered by upstream cloudburst",
+      "BRO bulldozers deployed with estimated 8-10 hour clearance window"
+    ],
+    "status": "ACTIVE",
+    "summary": "Intense localized cloudburst near Gulabkoti caused a massive landslide and torrent of sludge across National Highway 7 (Rishikesh-Badrinath route) at Pagal Nala. The Border Roads Organisation (BRO) and State Disaster Response Force (SDRF) have halted all vehicular movement. Relief shelters have been opened in Pipalkoti and Joshimath.",
+    "locations": [
+      { "name": "Pagal Nala Blockade Zone", "latitude": 30.4920, "longitude": 79.5100 },
+      { "name": "Joshimath Transit Camp", "latitude": 30.5564, "longitude": 79.5670 },
+      { "name": "Pipalkoti Shelter Point", "latitude": 30.4294, "longitude": 79.4326 },
+      { "name": "Rishikesh Safe Terminus", "latitude": 30.0869, "longitude": 78.2676 }
+    ],
+    "confirmedFacts": [
+      {
+        "fact": "NH-7 completely blocked at Pagal Nala; BRO heavy earthmovers on site.",
+        "sources": ["District Emergency Operations Centre (DEOC) Chamoli", "Border Roads Organisation"],
+        "lastUpdated": "2026-10-02T11:00:00+05:30"
+      },
+      {
+        "fact": "Emergency medical and food supplies set up at GMVN Pipalkoti guest house.",
+        "sources": ["Uttarakhand State Disaster Management Authority (USDMA)"],
+        "lastUpdated": "2026-10-02T11:20:00+05:30"
+      }
+    ],
+    "reportedInformation": [
+      {
+        "claim": "Private jeeps taking an unpaved rural bypass via Helang village.",
+        "source": "Local Taxi Drivers Group",
+        "reportedAt": "2026-10-02T10:45:00+05:30"
+      }
+    ],
+    "uncertainties": [
+      {
+        "item": "Safety of unpaved Helang mountain bypass road",
+        "reason": "Police caution that mud on the single-lane hillside track poses acute rollover danger."
+      }
+    ],
+    "conflictingReports": [
+      {
+        "claim": "Reopening time for light vehicles at Pagal Nala",
+        "sourceA": {
+          "sourceId": "Local Drivers Association",
+          "says": "Expected single-lane opening in 2 hours",
+          "time": "2026-10-02T10:30:00+05:30"
+        },
+        "sourceB": {
+          "sourceId": "BRO Engineering Command",
+          "says": "Massive continuous sliding from crest; no opening before 6:00 PM today",
+          "time": "2026-10-02T11:15:00+05:30"
+        },
+        "note": "Trust the BRO Engineering bulletin. Upstream slope stability remains compromised; do not attempt to cross until official clearance is issued."
+      }
+    ],
+    "recommendedActions": [
+      {
+        "action": "Do NOT leave Joshimath town toward Rishikesh until BRO green-light",
+        "basis": "Over 400 vehicles already stranded without fuel or water in landslide zone",
+        "urgency": "HIGH"
+      },
+      {
+        "action": "Avoid taking the unverified Helang rural dirt bypass",
+        "basis": "Police advisory warning of high rollover risk on wet mountain ridges",
+        "urgency": "HIGH"
+      },
+      {
+        "action": "Register with SDRF reception at Joshimath bus stand for food and shelter",
+        "basis": "SDMA emergency welfare arrangement",
+        "urgency": "MODERATE"
+      }
+    ]
+  },
+  "personalization": {
+    "affectedLocations": [
+      {
+        "locationType": "home",
+        "locationName": "Joshimath Town",
+        "impactLevel": "LOW",
+        "explanation": "Joshimath town itself is structurally secure with active power and cellular connectivity. It serves as your safe sanctuary.",
+        "icon": "🏕️"
+      },
+      {
+        "locationType": "route",
+        "locationName": "Joshimath → Rishikesh Highway (NH-7)",
+        "impactLevel": "CRITICAL",
+        "explanation": "Your travel corridor is severed at Pagal Nala (22 km south). Attempting transit will trap your vehicle in active rockfall zones with zero fuel or food access.",
+        "icon": "🚧"
+      },
+      {
+        "locationType": "destination",
+        "locationName": "Rishikesh Railway Junction",
+        "impactLevel": "HIGH",
+        "explanation": "You will miss your scheduled train connection today. Contact Indian Railways customer helpline (139) for disaster-concession rescheduling.",
+        "icon": "🚆"
+      }
+    ],
+    "personalSummary": "Vikram, do NOT start your mountain road journey from Joshimath today. The Pagal Nala section of NH-7 is completely choked by rockslides and will not reopen before evening. Stay safely lodged in Joshimath and reschedule your train booking.",
+    "urgentActions": [
+      {
+        "action": "Cancel or reschedule Rishikesh train tickets immediately",
+        "reason": "Travel down the mountain highway is physically impossible today"
+      },
+      {
+        "action": "Stay parked in Joshimath; do not join the highway queue",
+        "reason": "High risk of secondary boulder slides on stranded vehicles in valley cuts"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "uttarakhand-src-1",
+      "title": "BRO Official Bulletin: Emergency Clearance Operation at Pagal Nala",
+      "type": "OFFICIAL",
+      "publisher": "Border Roads Organisation Project Shivalik",
+      "publishedAt": "2026-10-02T11:15:00+05:30",
+      "rawContent": "NH-7 blocked due to heavy slide at Pagal Nala km 462. Road clearing machinery deployed. Continuous hill slide hindering progress. Public requested to delay journeys."
+    },
+    {
+      "id": "uttarakhand-src-2",
+      "title": "District Disaster Management Advisory Chamoli",
+      "type": "OFFICIAL",
+      "publisher": "DEOC Chamoli",
+      "publishedAt": "2026-10-02T11:00:00+05:30",
+      "rawContent": "Heavy rainfall warning across Chamoli. Pilgrims and travellers urged to remain at respective camps in Joshimath and Pipalkoti until further notice."
+    }
+  ],
+  "timeline": [
+    { "time": "09:30", "event": "Cloudburst reported upstream of Gulabkoti gorge", "sourceId": "uttarakhand-src-2" },
+    { "time": "10:15", "event": "Massive mudslide hits Pagal Nala, cutting off NH-7", "sourceId": "uttarakhand-src-1" },
+    { "time": "10:30", "event": "Taxi operators report initial gridlock; urge detour via Helang village", "sourceId": "uttarakhand-src-2" },
+    { "time": "11:00", "event": "Chamoli Administration halts all outward transit from Joshimath", "sourceId": "uttarakhand-src-2" },
+    { "time": "11:15", "event": "BRO confirms serious slope failure; operations will take minimum 7-8 hours", "sourceId": "uttarakhand-src-1" }
+  ]
+}

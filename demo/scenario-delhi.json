@@ -1,0 +1,203 @@
+{
+  "id": "delhi-smog",
+  "name": "Severe Toxic Smog & AQI 480+ Emergency",
+  "region": "Delhi-NCR, India",
+  "description": "Hazardous post-harvest stubble burning and meteorological inversion cause unprecedented smog, triggering Stage-IV GRAP emergency measures.",
+  "friend": {
+    "name": "Priya",
+    "home": {
+      "name": "Home",
+      "label": "Rohini Sector 14, Delhi",
+      "type": "home",
+      "latitude": 28.7188,
+      "longitude": 77.1332
+    },
+    "college": {
+      "name": "Workplace",
+      "label": "Cyber City, Gurugram",
+      "type": "work",
+      "latitude": 28.4950,
+      "longitude": 77.0895
+    },
+    "route": {
+      "from": "home",
+      "to": "work",
+      "waypoints": [
+        { "lat": 28.7188, "lng": 77.1332 },
+        { "lat": 28.6692, "lng": 77.1453 },
+        { "lat": 28.5921, "lng": 77.0460 },
+        { "lat": 28.4950, "lng": 77.0895 }
+      ]
+    },
+    "preferredLanguage": "en"
+  },
+  "synthesis": {
+    "title": "Severe Toxic Smog & Hazardous AQI Spike in Delhi-NCR",
+    "type": "health",
+    "severity": "CRITICAL",
+    "severityFactors": [
+      "AQI cross 480 in Rohini & Jahangirpuri (Severe+ category)",
+      "Visibility below 50 meters on Outer Ring Road and NH-48",
+      "GRAP Stage IV emergency curbs in effect across entire NCR",
+      "Respiratory emergency alert issued by Safdarjung Hospital"
+    ],
+    "status": "ACTIVE",
+    "summary": "Air Quality Index (AQI) has reached hazardous levels (480-495) across Delhi-NCR due to zero wind velocity and temperature inversion. Commission for Air Quality Management (CAQM) has invoked Stage IV of the Graded Response Action Plan (GRAP-IV). Non-BS-VI diesel vehicles and non-essential trucks are prohibited from entering Delhi. All schools have suspended physical classes.",
+    "locations": [
+      { "name": "Rohini Sector 14", "latitude": 28.7188, "longitude": 77.1332 },
+      { "name": "Outer Ring Road (Mukarba Chowk)", "latitude": 28.7295, "longitude": 77.1524 },
+      { "name": "Delhi-Gurgaon Expressway (NH-48)", "latitude": 28.5284, "longitude": 77.0982 },
+      { "name": "Cyber City, Gurugram", "latitude": 28.4950, "longitude": 77.0895 }
+    ],
+    "confirmedFacts": [
+      {
+        "fact": "GRAP Stage-IV restrictions formally enforced by CAQM across Delhi, Gurgaon, Noida, and Faridabad.",
+        "sources": ["Commission for Air Quality Management (CAQM)", "Delhi State Environment Dept"],
+        "lastUpdated": "2026-10-02T08:00:00+05:30"
+      },
+      {
+        "fact": "All schools up to Grade 9 shifted to online classes until further notice.",
+        "sources": ["Directorate of Education, GNCTD"],
+        "lastUpdated": "2026-10-02T07:30:00+05:30"
+      },
+      {
+        "fact": "Entry of non-electric/non-CNG commercial trucks banned into Delhi.",
+        "sources": ["Delhi Traffic Police Bulletin"],
+        "lastUpdated": "2026-10-02T08:15:00+05:30"
+      }
+    ],
+    "reportedInformation": [
+      {
+        "claim": "Massive pile-ups reported on Outer Ring Road near Mukarba Chowk due to near-zero visibility.",
+        "source": "Citizen Traffic Alert via Twitter/X",
+        "reportedAt": "2026-10-02T07:45:00+05:30"
+      },
+      {
+        "claim": "Private corporate offices in Cyber City Gurgaon reportedly mandated 50% work-from-home.",
+        "source": "Local Business News Wire",
+        "reportedAt": "2026-10-02T08:30:00+05:30"
+      }
+    ],
+    "uncertainties": [
+      {
+        "item": "Duration of severe temperature inversion layer",
+        "reason": "IMD forecasts calm wind conditions persisting for at least 36 to 48 hours."
+      },
+      {
+        "item": "Whether odd-even private vehicle rules will be enacted tomorrow",
+        "reason": "Cabinet meeting scheduled for 3:00 PM today to deliberate."
+      }
+    ],
+    "conflictingReports": [
+      {
+        "claim": "Interstate Bus & Shared Taxi Operations between Rohini and Gurugram",
+        "sourceA": {
+          "sourceId": "Private Bus Operators Guild",
+          "says": "Buses running normally with reduced speeds",
+          "time": "2026-10-02T07:15:00+05:30"
+        },
+        "sourceB": {
+          "sourceId": "Delhi Traffic Advisory",
+          "says": "Interstate commercial passenger diesel carriers restricted at border checkpoints",
+          "time": "2026-10-02T08:20:00+05:30"
+        },
+        "note": "Official checkpoint enforcement at Kapashera and Sirhaul borders is strictly turning back diesel buses. Commuters should rely strictly on Delhi Metro Yellow Line."
+      }
+    ],
+    "recommendedActions": [
+      {
+        "action": "Do NOT drive or ride two-wheelers on NH-48 or Outer Ring Road today",
+        "basis": "Dense toxic smog creating acute pileup hazards",
+        "urgency": "HIGH"
+      },
+      {
+        "action": "Use Delhi Metro Yellow Line for essential commute to Gurugram",
+        "basis": "Underground rail avoids surface smog and road checkpoint delays",
+        "urgency": "HIGH"
+      },
+      {
+        "action": "Wear N95/FFP2 respirators if stepping outdoors; avoid all outdoor cardio exercise",
+        "basis": "PM2.5 levels exceeding 450 µg/m³ pose acute pulmonary danger",
+        "urgency": "HIGH"
+      },
+      {
+        "action": "Run HEPA air purifiers indoors and keep windows tightly sealed",
+        "basis": "Central Pollution Control Board health advisory",
+        "urgency": "MODERATE"
+      }
+    ]
+  },
+  "personalization": {
+    "affectedLocations": [
+      {
+        "locationType": "home",
+        "locationName": "Rohini Sector 14",
+        "impactLevel": "CRITICAL",
+        "explanation": "Rohini monitoring station reports PM2.5 at 488 (Severe+). Hazardous smog will penetrate homes without air purifiers. Keep windows shut and use wet towel door seals.",
+        "icon": "🏠"
+      },
+      {
+        "locationType": "work",
+        "locationName": "Cyber City, Gurugram",
+        "impactLevel": "HIGH",
+        "explanation": "Offices remain open under advisory, but border checkpoint congestion on NH-48 is causing 90+ minute delays for road transport.",
+        "icon": "🏢"
+      },
+      {
+        "locationType": "route",
+        "locationName": "Rohini → Cyber City Commute",
+        "impactLevel": "CRITICAL",
+        "explanation": "Your road transit path via Ring Road & NH-48 is hazardous due to near-zero visibility and border truck diversions. Switch directly to Delhi Metro Yellow Line (Samaypur Badli to Sikanderpur).",
+        "icon": "🚇"
+      }
+    ],
+    "personalSummary": "Priya, your home area in Rohini has entered the CRITICAL air quality zone (AQI 488). With your asthma history, DO NOT travel by open road or two-wheeler today. If your employer allows, work remotely. For mandatory travel to Cyber City, take the Delhi Metro Yellow Line only.",
+    "urgentActions": [
+      {
+        "action": "Keep inhalers and prescribed medication immediately accessible",
+        "reason": "Air quality at 480+ triggers severe bronchospasms in sensitive individuals"
+      },
+      {
+        "action": "Take Delhi Metro instead of driving via NH-48",
+        "reason": "Massive border gridlock and severe visibility hazards on surface roads"
+      },
+      {
+        "action": "Request emergency remote work day from employer",
+        "reason": "Government advisory officially recommends corporate hybrid staffing today"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "delhi-src-1",
+      "title": "CAQM Official Directive: Enforcement of GRAP Stage-IV in National Capital Region",
+      "type": "OFFICIAL",
+      "publisher": "Commission for Air Quality Management",
+      "publishedAt": "2026-10-02T08:00:00+05:30",
+      "rawContent": "In view of the deteriorating air quality in Delhi-NCR, CAQM hereby imposes GRAP Stage IV with immediate effect. All construction activities, non-BS-VI diesel vehicles, and non-essential commercial vehicles are banned."
+    },
+    {
+      "id": "delhi-src-2",
+      "title": "Delhi Traffic Police: Visibility Advisory and Interstate Checkpoints",
+      "type": "OFFICIAL",
+      "publisher": "Delhi Police Traffic Division",
+      "publishedAt": "2026-10-02T08:15:00+05:30",
+      "rawContent": "Visibility dropped under 50m on NH-48 and Ring Road. Non-essential commercial vehicles diverted at border points. Motorists advised to use fog lights and avoid high speeds."
+    },
+    {
+      "id": "delhi-src-3",
+      "title": "Citizen Report: Outer Ring Road Near Mukarba Chowk Traffic Jam",
+      "type": "COMMUNITY",
+      "publisher": "Citizen Dispatch via Social Media",
+      "publishedAt": "2026-10-02T07:45:00+05:30",
+      "rawContent": "Multiple cars bumped into each other near Mukarba flyover. Smog is stinging eyes and throat. Traffic is at a complete standstill."
+    }
+  ],
+  "timeline": [
+    { "time": "07:00", "event": "Central Pollution Control Board logs AQI crossing 480 threshold", "sourceId": "delhi-src-1" },
+    { "time": "07:30", "event": "Directorate of Education issues school closure order for primary and middle grades", "sourceId": "delhi-src-1" },
+    { "time": "07:45", "event": "Commuter dispatches report multi-car pileup near Mukarba Chowk", "sourceId": "delhi-src-3" },
+    { "time": "08:00", "event": "CAQM formally orders GRAP Stage-IV enforcement across NCR", "sourceId": "delhi-src-1" },
+    { "time": "08:15", "event": "Delhi Traffic Police seal borders to non-BS6 commercial carriers", "sourceId": "delhi-src-2" }
+  ]
+}

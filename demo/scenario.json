@@ -1,0 +1,73 @@
+{
+  "name": "Heavy Rainfall and Localized Flooding",
+  "region": "Mohali-Chandigarh, Punjab",
+  "description": "Simulated scenario: Heavy monsoon rainfall causes waterlogging and road disruptions in Mohali and surrounding areas.",
+  "friend": {
+    "name": "Arjun",
+    "home": {
+      "name": "Home",
+      "label": "Mohali Sector 70",
+      "type": "home",
+      "latitude": 30.7046,
+      "longitude": 76.7179
+    },
+    "college": {
+      "name": "College",
+      "label": "Chandigarh University",
+      "type": "college",
+      "latitude": 30.7714,
+      "longitude": 76.5785
+    },
+    "route": {
+      "from": "home",
+      "to": "college",
+      "waypoints": [
+        { "lat": 30.7046, "lng": 76.7179 },
+        { "lat": 30.7131, "lng": 76.6956 },
+        { "lat": 30.7285, "lng": 76.6512 },
+        { "lat": 30.7714, "lng": 76.5785 }
+      ]
+    },
+    "preferredLanguage": "en"
+  },
+  "sources": [
+    {
+      "id": "demo-src-1",
+      "filename": "imd_warning.json"
+    },
+    {
+      "id": "demo-src-2",
+      "filename": "local_news.json"
+    },
+    {
+      "id": "demo-src-3",
+      "filename": "community_report.json"
+    },
+    {
+      "id": "demo-src-4",
+      "filename": "traffic_advisory.json"
+    }
+  ],
+  "timeline": [
+    {
+      "time": "09:00",
+      "event": "IMD heavy rainfall warning issued for Punjab",
+      "sourceId": "demo-src-1"
+    },
+    {
+      "time": "09:30",
+      "event": "Local news reports waterlogging in Mohali sectors",
+      "sourceId": "demo-src-2"
+    },
+    {
+      "time": "10:05",
+      "event": "Community member reports flooding near Sector 70",
+      "sourceId": "demo-src-3"
+    },
+    {
+      "time": "10:42",
+      "event": "District administration issues traffic advisory",
+      "sourceId": "demo-src-4"
+    }
+  ]
+}

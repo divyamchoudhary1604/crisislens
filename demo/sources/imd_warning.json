@@ -1,0 +1,10 @@
+{
+  "id": "demo-src-1",
+  "title": "DEMO — IMD Warning: Heavy Rainfall Expected in Punjab and Chandigarh",
+  "type": "OFFICIAL",
+  "publisher": "India Meteorological Department (Simulated)",
+  "url": "https://demo.example.com/imd-warning",
+  "publishedAt": "2026-10-02T09:00:00+05:30",
+  "rawContent": "WEATHER WARNING — INDIA METEOROLOGICAL DEPARTMENT, CHANDIGARH\n\nDate: 02 October 2026\nValid: 02 October 2026, 0600 IST to 03 October 2026, 0600 IST\n\nHEAVY RAINFALL WARNING for Punjab, Chandigarh, and parts of Haryana.\n\nA well-marked low-pressure area over northwest India is expected to bring heavy to very heavy rainfall (64.5 mm to 115.5 mm in 24 hours) over several districts of Punjab including SAS Nagar (Mohali), Rupnagar, Patiala, and Fatehgarh Sahib.\n\nExpected Impact:\n- Waterlogging in low-lying areas\n- Possible disruption to road traffic\n- Potential overflow of seasonal nallahs (drains)\n\nAdvisory:\n- Avoid unnecessary travel during heavy rainfall periods\n- Do not cross flooded roads or bridges\n- Keep emergency supplies ready\n- Follow instructions from local district administration\n- Helpline: 1070 (State Emergency Operations Center)\n\nThis warning is based on current atmospheric models and may be updated as conditions evolve.\n\nIssued by: IMD Regional Meteorological Centre, Chandigarh (SIMULATED FOR DEMONSTRATION)",
+  "isDemo": true
+}

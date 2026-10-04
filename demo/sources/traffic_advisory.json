@@ -1,0 +1,10 @@
+{
+  "id": "demo-src-4",
+  "title": "DEMO — District Administration Traffic Advisory for SAS Nagar (Mohali)",
+  "type": "OFFICIAL",
+  "publisher": "District Administration SAS Nagar (Simulated)",
+  "url": "https://demo.example.com/mohali-traffic-advisory",
+  "publishedAt": "2026-10-02T10:42:00+05:30",
+  "rawContent": "TRAFFIC ADVISORY — DISTRICT ADMINISTRATION, SAS NAGAR (MOHALI)\n\nDate: 02 October 2026\nTime: 10:42 AM IST\n\nDue to heavy rainfall and waterlogging in various parts of SAS Nagar district, the following traffic advisories are issued:\n\n1. Airport Road (Mohali to Chandigarh Airport): CLOSED for light vehicles until further notice due to severe waterlogging. Heavy vehicles may still pass with extreme caution.\n\n2. Sector 70-71 internal roads: Significant waterlogging reported. Residents advised to avoid non-essential travel.\n\n3. Phase 7 Market Area: Partial waterlogging. Shops in low-lying areas advised to take precautionary measures.\n\n4. Mohali-Kharar Road: Open but slow-moving traffic due to water on road shoulders.\n\nAlternative Routes:\n- Commuters heading towards Chandigarh may use the Zirakpur-Panchkula route via NH-5.\n- Commuters heading towards Chandigarh University from Mohali may use the Kharar bypass road.\n\nHelpline: 0172-XXXXXXX (DC Office SAS Nagar)\n\nSituation is being monitored. Updates will be issued as conditions change.\n\n(SIMULATED TRAFFIC ADVISORY FOR DEMONSTRATION PURPOSES)",
+  "isDemo": true
+}
