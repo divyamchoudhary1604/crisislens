@@ -7,7 +7,7 @@ services:
   # 1. Backend API Service
   - type: web
     name: crisislens-api
-    env: node
+    runtime: node
     plan: free
     rootDir: server
     buildCommand: npm install
@@ -21,20 +21,23 @@ services:
       - key: DEMO_MODE
         value: "true"
       - key: AI_PROVIDER
-        value: demo # or openrouter / groq for Gemma 2
+        value: demo
       - key: MONGODB_URI
-        sync: false # Set in Render dashboard for Atlas cloud persistence
-      - key: CLIENT_URL
-        value: https://crisislens.onrender.com
+        sync: false
 
   # 2. Frontend React Client (Static Site)
   - type: web
     name: crisislens-client
-    env: static
-    plan: free
+    runtime: static
     rootDir: client
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: crisislens-api
+          property: host
     routes:
       - type: rewrite
         source: /*
